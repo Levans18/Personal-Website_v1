@@ -1,9 +1,16 @@
+html{
+    height:100%;
+    width:100%;
+}
 body{
     box-sizing: border-box;
+    height:100%;
 }
 
 header{
     width:100%;
+    display:grid;
+    grid-template: 1fr / 1fr 2fr; 
 }
 
 ul{
@@ -16,32 +23,54 @@ h1{
     Font-weight: bold;
     font-size:2rem;
     text-transform: uppercase;
-    color:black;
-    background-color:#34E337;
+    color:#34E337;
+}
+
+nav{
+  grid-column: 2 / span 1;
 }
 
 nav ul{
     display:flex;
-    height: 125px;
-    justify-content: space-around;
+    padding: 10px;
+    justify-content: flex-end;
     align-items:center;
     background-color:black;
 }
 
 nav li{
     display:inline-flex;
-    height: 100px;
-    width: 100px;
-    border-radius:50px;
-    color:white;
-    background-color:#34E337;
+    color:#34E337;
+    margin:0 20px;
 }
 
 nav a{
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 
 nav a:hover{
     text-transform: underline;
+}
+
+ html#home-page{
+    height:100%;
+    background-color:black;
+    opacity: .9;
+}
+
+#home-page main{
+    height: 100%;
+    display: grid;
+    align-items:center;
+    grid-template: 1fr /  repeat(4, 1fr);
+}
+
+#circle.container{
+    grid-column:2 / span 1;
+    height:400px;
+    width:400px;
+    border-radius:100px;
+    background-color:green;
+
 }
