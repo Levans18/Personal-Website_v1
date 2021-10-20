@@ -65,18 +65,24 @@ nav a:hover{
     height: 100%;
     display: grid;
     align-items:center;
-    grid-template: 1fr /  repeat(4, 1fr);
+    grid-template: 3fr 1fr 2fr /  repeat(4, 1fr);
 }
 
 #home-page p{
     color:white; 
 }
 
-#circle.container{
-    grid-column:2 / span 1;
-    height:400px;
-    width:400px;
-    border-radius:100px;
-    background-color:green;
+#introduction{
+    grid-column: 1 / span 4;
+    margin:auto;
+    width: 100%;
+    background-color:#34E337;
+}
 
+#introduction figure{
+    border-radius:25%;
+}
+
+#introduction figcaption{
+    color:white;
 }
