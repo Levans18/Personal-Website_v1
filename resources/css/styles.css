@@ -62,11 +62,11 @@ nav li{
 nav a{
     font-size: 2.5rem;
     text-decoration:none;
-    color:#34E337;
+    color:white;
 }
 
 nav a.current-page{
-    color:white;
+    color: #34E337;
 }
 
 nav a:hover{
