@@ -80,10 +80,6 @@ nav a:hover{
     grid-template: 4fr 1fr 2fr /  repeat(4, 1fr);
 }
 
-#home-page p{
-    color:white; 
-}
-
 #introduction{
     grid-column: 1 / span 4;
     margin:auto;
