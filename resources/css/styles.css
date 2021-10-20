@@ -119,22 +119,3 @@ nav a:hover{
     font-size: 3.5vw;
     color: white;
 }
-
-#circle.container{
-    grid-column:2 / span 1;
-    height:400px;
-    width:400px;
-    border-radius:200px;
-    background-color:green;
-
-}
-
-
-h2 {
-  display: block;
-  color: white;
-  font-weight: 100;
-  margin-right: 2rem;
-  text-align: center;
-}
-
