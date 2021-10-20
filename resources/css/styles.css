@@ -68,6 +68,10 @@ nav a:hover{
     grid-template: 1fr /  repeat(4, 1fr);
 }
 
+#home-page p{
+    color:white; 
+}
+
 #circle.container{
     grid-column:2 / span 1;
     height:400px;
