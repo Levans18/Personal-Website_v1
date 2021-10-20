@@ -4,7 +4,9 @@ html{
     height:100%;
     background-color:black;
     opacity: .9;
+    color:white
 }
+
 body{
     box-sizing: border-box;
     height:100%;
@@ -16,6 +18,15 @@ header{
     grid-template: 1fr / 1fr 2fr; 
 }
 
+h1, h2, h3, h4{
+    color:#34E337;
+}
+
+h1{
+    font-size: 3rem;
+    text-align:center;
+}
+
 ul{
     color:lightgray;
 }
@@ -24,7 +35,7 @@ ul{
     padding: 10px;
     text-align: left;
     Font-weight: bold;
-    font-size:2rem;
+    font-size:2.5rem;
     text-transform: uppercase;
     color:#34E337;
 }
@@ -48,7 +59,7 @@ nav li{
 }
 
 nav a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration:none;
     color:#34E337;
 }
@@ -65,7 +76,7 @@ nav a:hover{
     height: 100%;
     display: grid;
     align-items:center;
-    grid-template: 3fr 1fr 2fr /  repeat(4, 1fr);
+    grid-template: 4fr 1fr 2fr /  repeat(4, 1fr);
 }
 
 #home-page p{
@@ -75,14 +86,35 @@ nav a:hover{
 #introduction{
     grid-column: 1 / span 4;
     margin:auto;
-    width: 100%;
-    background-color:#34E337;
+    width: 50%;
 }
 
-#introduction figure{
-    border-radius:25%;
+
+#introduction img{
+    height: 20vw; 
+    width: 20vw; 
+    border: 5px solid #34E337;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.curve{
+  width: 300px;
+  height: 300px;
+  float: left;
+  shape-outside: circle();
+  border-radius: 50%;
+  margin: 10px;
+  border-style: solid;
 }
 
 #introduction figcaption{
-    color:white;
+    text-align: left;
+    vertical-align: center;
+    margin: 10px 0 0 7px;
+    font-size: 3.5vw;
+    color: white;
 }
