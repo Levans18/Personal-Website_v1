@@ -1,0 +1,30 @@
+
+
+.contact-widgets{
+    display:flex;
+    flex-direction:column;
+}
+
+figure{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+figure img{
+    height: 200px;
+    width: 200px;
+}
+
+figure figcaption{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+    width: 200px;
+    background-color:gray;
+}
+
+figure figcaption a{
+    font-size: 3rem;
+}

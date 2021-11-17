@@ -77,7 +77,8 @@ nav a{
 
 
 nav a:hover{
-    text-transform: underline;
+    text-decoration: underline;
+
 }
 
 #home-page main{
@@ -136,5 +137,3 @@ nav a:hover{
     width: 1000px;
     margin: 20px;
 }
-
-
