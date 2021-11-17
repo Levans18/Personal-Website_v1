@@ -18,6 +18,10 @@ header{
     grid-template: 1fr / 1fr 2fr; 
 }
 
+footer{
+    height: 100px;
+}
+
 h1, h2, h3, h4{
     color:#34E337;
 }
@@ -49,6 +53,7 @@ ul{
 
 nav{
   grid-column: 2 / span 1;
+  margin-bottom:50px;
 }
 
 nav ul{
@@ -127,8 +132,8 @@ nav a:hover{
 
 .resume embed{
     text-align:center;
-    height: 800px;
-    width: 700px;
+    height: 1100px;
+    width: 1000px;
     margin: 20px;
 }
 
