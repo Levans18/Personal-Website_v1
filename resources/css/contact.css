@@ -7,24 +7,67 @@
 
 figure{
     display:flex;
-    justify-content:center;
     align-items:center;
+    margin:0 100px;
+}
+
+figure.email{
+    justify-content:start;
+}
+
+figure.phone-number{
+    justify-content:center;
+}
+
+figure.github{
+    justify-content:end;
 }
 
 figure img{
     height: 200px;
     width: 200px;
+    border-radius:100px;
+    z-index: 3;
+    background-color:#34E337;
+
 }
 
 figure figcaption{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100px;
-    width: 200px;
+    height:125px;
+    width:400px;
+    margin-left: -25px;
     background-color:gray;
+    z-index: 2;
 }
+
+figure figcaption:hover{
+    color: #34E337;
+}
+
+figure.email figcaption{
+    width: 600px;
+}
+
+figure.phone-number figcaption{
+    width: 400px;
+}
+
+figure.github figcaption{
+    width: 250px;
+}
+
 
 figure figcaption a{
     font-size: 3rem;
+    margin-left:25px;
+    color:white;
+    text-decoration: none;
+}
+
+figure figcaption a:hover{
+    text-decoration: none;
+    color:#34E337;
 }
