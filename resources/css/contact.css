@@ -24,7 +24,7 @@ figure figcaption{
     justify-content:center;
     align-items:center;
     height:125px;
-    width:400px;
+    width:0px;
     margin-left: -25px;
     background-color:gray;
     z-index: 2;
@@ -34,7 +34,7 @@ figure figcaption:hover{
     color: #34E337;
 }
 
-figure.email figcaption{
+/* figure.email figcaption{
     width: 600px;
 }
 
@@ -44,7 +44,7 @@ figure.phone-number figcaption{
 
 figure.github figcaption{
     width: 250px;
-}
+} */
 
 
 figure figcaption a{
@@ -52,6 +52,7 @@ figure figcaption a{
     margin-left:25px;
     color:white;
     text-decoration: none;
+    display:none;
 }
 
 figure figcaption a:hover{

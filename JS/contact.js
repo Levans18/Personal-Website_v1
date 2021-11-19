@@ -2,16 +2,9 @@
 
 
 let animateContact = () => {
-    noFigcaption();
     setTimeout(() => {middleTranslate()},200);
     setTimeout(() => {outlierTranslate()},1000);
-}
-
-let noFigcaption = () => {
-    anime({
-        targets: "contact-widgets figure figcaption",
-        scale: 0,
-    })
+    setTimeout(() => {yesFigcaption()},2000);
 }
 
 let middleTranslate = () => {
@@ -33,4 +26,23 @@ let outlierTranslate = () => {
         translateX: screen.width/1.40 + 200,
         duration: 2000,
     });
+}
+
+let yesFigcaption = () => {
+    anime({
+        targets: ".email figcaption",
+        width: '600px',
+    })
+    anime({
+        targets: ".phone-number figcaption",
+        width: '400px',
+    })
+    anime({
+        targets: ".github figcaption",
+        width: '250px',
+    })
+    anime({
+        targets: "figure figcaption a",
+        display: 'block',
+      })
 }
