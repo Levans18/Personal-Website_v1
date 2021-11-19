@@ -8,19 +8,6 @@
 figure{
     display:flex;
     align-items:center;
-    margin:0 100px;
-}
-
-figure.email{
-    justify-content:start;
-}
-
-figure.phone-number{
-    justify-content:center;
-}
-
-figure.github{
-    justify-content:end;
 }
 
 figure img{
@@ -29,7 +16,6 @@ figure img{
     border-radius:100px;
     z-index: 3;
     background-color:#34E337;
-
 }
 
 figure figcaption{
