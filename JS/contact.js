@@ -43,6 +43,6 @@ let yesFigcaption = () => {
     })
     anime({
         targets: "figure figcaption a",
-        display: 'block',
+        opacity: '1',
       })
 }
