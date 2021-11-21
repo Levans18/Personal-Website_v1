@@ -48,4 +48,17 @@
 }
 
 #about-me{
+    background-color: #333333;
+}
+
+#about-me .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+}
+
+#about-me h1{
+    text-align: left;
+    margin: auto;
 }
