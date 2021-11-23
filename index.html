@@ -6,6 +6,8 @@
         <link href="resources/css/styles.css" type="text/css" rel="stylesheet">
         <link href="resources/css/index.css" type="text/css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="./resources/images/sad_cat_thumb_icon.ico"/>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+        <script src="./JS/index.js"></script>
     </head>
     <body>
         <header>
@@ -46,34 +48,35 @@
                         Languages I've worked with
                     </h1>
                 </div>
-                <ul>
-                    <li>
+                <ul id="elements">
+                    <li class="html">
                         <a href="https://html.com/" target="_blank">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                         </a>
                     </li>
-                    <li>
+                    <li class="css">
                         <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                         </a>
                     </li>
-                    <li>
+                    <li class="js">
                         <a href="https://www.javascript.com/" target="_blank">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                         </a>
                     </li>
-                    <li>
+                    <li class="java">
                         <a href="https://www.java.com/en/" target="_blank">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                         </a>
                     </li>
-                    <li>
+                    <li class="c">
                         <a href="https://www.cprogramming.com/" target="_blank">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                         </a>
                     </li>
                 </ul>
             </section>
+            <script>animateIndex()</script>
         </main>
         <footer>
             <ul>
