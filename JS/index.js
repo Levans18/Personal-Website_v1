@@ -4,11 +4,6 @@ let animateIndex = () => {
     setTimeout(() => {animateJS()},4000);
     setTimeout(() => {animateJava()},6000);
     setTimeout(() => {animateC()},8000);
-
-    let elementsArray = document.querySelectorAll("elements");
-    elementsArray.forEach(function(elem) {
-        elem.addEventListener("mouseenter", hoverPause());
-    });
 }
 
 let animateHTML = () => {
@@ -85,9 +80,3 @@ let animateC = () => {
         loop:true,
     });
 }
-
-
-let hoverPause = () => {
-    loopoAnim.pause;
-}
-

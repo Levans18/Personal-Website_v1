@@ -47,11 +47,11 @@
     color: white;
 }
 
-#about-me{
+#languages{
     height: 300px;
 }
 
-#about-me .container{
+#languages .container{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -59,12 +59,12 @@
     background-color: #333333;
 }
 
-#about-me h1{
+#languages h1{
     text-align: left;
     margin: auto;
 }
 
-#about-me ul{
+#languages ul{
     width:100%;
     height: 200px;
     display: inline-flex;
@@ -73,7 +73,62 @@
     flex-direction: row;
 }
 
-#about-me li img{
+#languages li img{
     height: 100px;
     width: 100px;
 }
+
+#overview{
+    height: 500px;
+}
+
+#overview .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+    background-color: #333333;
+}
+
+#overview h1{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+#outside-coding{
+    height: 1100px;
+}
+
+#outside-coding .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+    background-color: #333333;
+}
+
+#outside-coding h1{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.activities{
+    height: 1000px;
+}
+
+.activities h2{
+    margin: 20px;
+    
+}
+
+.esports{
+    height: 500px;
+}
+
+.rockclimbing{
+    height: 500px;
+}
+
+
+
