@@ -112,7 +112,8 @@
 }
 
 .activities p{
-    margin: 50px;
+    margin: 25px;
+    width: 40%;
 }
 
 .esports{
@@ -126,13 +127,27 @@
 
 .esports img{
     background-color: gray;
-    height: 400px;
-    width: 600px;
-    
+    height: 300px;
+    width: 30%;
 }
 
-.rockclimbing{
+.esports blockquote{
+    height: 300px;
+    width: 20%;
+}
+
+.running{
     height: 500px;
+}
+
+.running .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.running img{
+    height: 300px;
+    width: 20%;
 }
 
 
