@@ -84,33 +84,22 @@
 
 #overview .container{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     height: 100px;
     background-color: #333333;
 }
-
-#overview h1{
-    text-align: left;
-    margin-left: 20px;
-}
-
 
 #outside-coding{
     height: 1100px;
 }
 
-#outside-coding .container{
+#outside-coding .header{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     height: 100px;
     background-color: #333333;
-}
-
-#outside-coding h1{
-    text-align: left;
-    margin-left: 20px;
 }
 
 .activities{
@@ -119,11 +108,27 @@
 
 .activities h2{
     margin: 20px;
-    
+    background-color: #11111111;
+}
+
+.activities p{
+    margin: 50px;
 }
 
 .esports{
     height: 500px;
+}
+
+.esports .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.esports img{
+    background-color: gray;
+    height: 400px;
+    width: 600px;
+    
 }
 
 .rockclimbing{
