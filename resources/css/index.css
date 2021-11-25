@@ -112,7 +112,7 @@
 }
 
 .activities p{
-    margin: 25px;
+    margin-left: 20px;
     width: 40%;
 }
 
@@ -123,17 +123,17 @@
 .esports .container{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .esports img{
     background-color: gray;
     height: 300px;
     width: 30%;
+    margin: 25px;
 }
 
-.esports blockquote{
-    height: 300px;
-    width: 20%;
+.esports .twitter-tweet{
 }
 
 .running{
