@@ -5,7 +5,9 @@
         <link href="../resources/css/reset.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/styles.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/resume.css" type="text/css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="../resources/images/sad_cat_thumb_icon.ico"/>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <header>
@@ -31,7 +33,7 @@
             </nav>
         </header>
         <main>
-            <section class="resume">
+            <section class="resume" data-aos="fade-right" data-aos-duration="750">
                 <embed src="../resources/pdf/Liam_Evans_Resume.pdf"/> 
             </section>
         </main>
@@ -39,5 +41,6 @@
             <ul>
             </ul>
         </footer>
+        <script>AOS.init()</script>
     </body>
 </html>

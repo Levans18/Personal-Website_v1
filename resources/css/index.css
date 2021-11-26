@@ -114,6 +114,7 @@
 .activities p{
     margin-left: 20px;
     width: 40%;
+    min-width: 600px;
 }
 
 .esports{
@@ -148,6 +149,7 @@
 .running img{
     height: 300px;
     width: 20%;
+    margin-left: 100px;
 }
 
 

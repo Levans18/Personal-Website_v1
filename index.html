@@ -5,8 +5,10 @@
         <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
         <link href="resources/css/styles.css" type="text/css" rel="stylesheet">
         <link href="resources/css/index.css" type="text/css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="./resources/images/sad_cat_thumb_icon.ico"/>
         <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="./JS/index.js"></script>
     </head>
     <body>
@@ -34,7 +36,7 @@
         </header>
         <main>
             <section id="introduction">
-                <figure>
+                <figure data-aos="zoom-in" data-aos-duration="750">
                     <img src="resources/images/Sad_Cat_Thumb.jpg" class="curve">
                     <figcaption>Hi, my name is <span class="p-color">Liam
                     </span> I'm a <span class="p-color">Software Engineer</span> 
@@ -43,12 +45,12 @@
                 </figure>
             </section>
             <section id="languages">
-                <div class="container">
+                <div class="container" data-aos="fade-up" data-aos-duration="750">
                     <h1>
                         Languages I've worked with
                     </h1>
                 </div>
-                <ul id="elements">
+                <ul id="elements" data-aos="fade-up" data-aos-duration="750">
                     <li class="html">
                         <a href="https://html.com/" target="_blank">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -78,24 +80,24 @@
             </section>
             <script>animateIndex()</script>
             <section id="overview">
-                <div class="container">
+                <div class="container" data-aos="fade-up" data-aos-duration="750">
                     <h1>
                         Overview
                     </h1>
                 </div>
             </section>
             <section id="outside-coding">
-                <div class="header">
+                <div class="header" data-aos="fade-up" data-aos-duration="750">
                     <h1>
                         Outside of Coding
                     </h1>
                 </div>
                 <ul class="activities">
                     <li class="esports">
-                        <h2>
+                        <h2 data-aos="fade-up" data-aos-duration="750">
                             Esports
                         </h2>
-                        <div class="container">
+                        <div class="container" data-aos="fade-up" data-aos-duration="750">
                             <p>
                                 I started playing video games pretty
                                 early on with fps shooters like Halo and 
@@ -107,8 +109,7 @@
                                 which I copied from my older brother and switched 
                                 out the o's for 0's. The image
                                 on the right was at my first lan tournament
-                                along with a highlight from a different 
-                                game. Even though I don't play
+                                along with highlights on twitter from other games. Even though I don't play
                                 as often it's always fun to hop on from time to time. 
                                 My discord is Potatoess#8446 
                             </p>
@@ -121,12 +122,21 @@
                         </div>
                     </li>
                     <li class="running">
-                        <h2>
+                        <h2 data-aos="fade-up" data-aos-duration="750">
                             Running
                         </h2>
-                        <div class="container">
+                        <div class="container" data-aos="fade-up" data-aos-duration="750">
                             <p>
-                                
+                                While it might kill me running is a hobby 
+                                of mine. I ran sprints in the track program 
+                                at my highschool all four years I was there.
+                                After track made me I stopped running 
+                                completely for two years. Starting again
+                                was harder than I expected and I can still
+                                barely run two miles consecutively but it's
+                                definately a work in progress. The image to 
+                                the right is me and my mother after the fourth
+                                of July race that North Canton hosts every year.
                             </p>
                             <img src = "resources/images/Running-img.jpg">
                         </div>
@@ -138,5 +148,6 @@
             <ul>
             </ul>
         </footer>
+        <script>AOS.init()</script>
     </body>
 </html>
