@@ -1,12 +1,14 @@
+
 .resume{
-    display:flex;
+    display: flex;
     justify-content:center;
-    align-items:flex-start;
-    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .resume embed{
-    height: 1100px;
-    width: 50%;
-    margin: 20px;
+    height: 1150px;
+    margin:20px;
+    width: 60%;
 }
