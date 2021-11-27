@@ -24,5 +24,10 @@ select{
     height: 600px;
     background-color: #333333;
     overflow-x:hidden;
-    margin: 20px;
+    margin: 40px;
+}
+
+.box h2{
+    background-color: #222222;
+    text-align: center;
 }

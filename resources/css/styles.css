@@ -33,6 +33,25 @@ footer{
     grid-row: 3 / span 1;
     height: 50px;
     width: 100%;
+    font-size: 2rem;
+}
+
+footer ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+footer li a{
+    text-decoration: none;
 }
 
 h1, h2, h3, h4{

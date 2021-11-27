@@ -5,7 +5,9 @@
         <link href="../resources/css/reset.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/styles.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/projects.css" type="text/css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="../resources/images/sad_cat_thumb_icon.ico"/>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <header>
@@ -31,28 +33,36 @@
             </nav>
         </header>
         <main>
-            <select name="project" id="project">
-                <option value="website">website</option>
-                <option value="apps">apps</option>
-              </select>
             <section class="projects">
                 <ul class="container">
-                    <li class="box">
+                    <li class="box" data-aos="zoom-in" data-aos-duration="750">
                         <h2>Attorney Website</h2>
+                        <p></p>
+                        <link>
                     </li>
-                    <li class="box">
+                    <li class="box" data-aos="zoom-in" data-aos-duration="750">
                         <h2>Addictify</h2>
+                        <p></p>
+                        <link>
                     </li>
-                    <li class="box">
+                    <li class="box" data-aos="zoom-in" data-aos-duration="750">
                         <h2>Wecycle</h2>
+                        <p></p>
+                        <link>
                     </li>
                 </ul>
             </section>
         </main>
         <footer>
             <ul>
-
+                <li>
+                    © LEvansDev 2021
+                </li>
+                <li>
+                    <a href="" class="p-color">Hire Me</a>
+                </li>
             </ul>
         </footer>
+        <script>AOS.init()</script>
     </body>
 </html>
