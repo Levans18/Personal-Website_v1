@@ -78,9 +78,6 @@
     width: 100px;
 }
 
-#overview{
-    height: 500px;
-}
 
 #overview .container{
     display: flex;
@@ -88,6 +85,10 @@
     align-items: center;
     height: 100px;
     background-color: #333333;
+}
+
+#overview p{
+    margin: 50px;
 }
 
 #outside-coding{
@@ -103,54 +104,57 @@
 }
 
 .activities{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
     height: 1000px;
 }
 
 .activities h2{
-    margin: 20px;
     background-color: #11111111;
 }
 
 .activities p{
     margin-left: 20px;
-    width: 40%;
-    min-width: 600px;
+}
+
+.activities .container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .esports{
     height: 500px;
-}
-
-.esports .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    grid-row: 1/ span 1;
+    grid-column: 1/span 1;
 }
 
 .esports img{
     background-color: gray;
-    height: 300px;
-    width: 30%;
-    margin: 25px;
-}
-
-.esports .twitter-tweet{
+    height: 200px;
+    width: 300px;
 }
 
 .running{
     height: 500px;
-}
-
-.running .container{
-    display: flex;
-    flex-direction: row;
+    grid-row: 1/ span 1;
+    grid-column: 2/span 1;
 }
 
 .running img{
-    height: 300px;
-    width: 20%;
-    margin-left: 100px;
+    height: 100px;
+    width: 100px;
 }
 
+.climbing{
+    height: 500px;
+    grid-row: 2/ span 1;
+    grid-column: 1/span 1;
+}
 
+.music{
+    height: 500px;
+    grid-row: 2/ span 1;
+    grid-column: 2/span 1;
+}
 

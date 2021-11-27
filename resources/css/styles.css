@@ -11,7 +11,7 @@ body{
     display: grid;
     box-sizing: border-box;
     height:100%;
-    grid-template: 60px 1fr 60px / 1fr;
+    grid-template: 60px 1fr 50px / 1fr;
 }
 
 header{
@@ -77,6 +77,7 @@ p{
 
 .p-color{
     color:#34E337;
+    text-decoration: none;
 }
 
 ul{
