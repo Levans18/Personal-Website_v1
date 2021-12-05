@@ -26,6 +26,7 @@ header{
 .box{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 650px;
     height: 800px;
     background-color: #222222;
@@ -40,4 +41,30 @@ header{
 .box p{
     margin: 10px;
     text-align: center;
+}
+
+.attourney-website .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: #111111;
+    margin-bottom: 0;
+}
+
+.attourney-website button:hover{
+    cursor:pointer;
+}
+
+.attourney-website a button{
+    height: 50px;
+    width: 200px;
+    font-size: 1.25rem;
+    color: white;
+    background-color: blueviolet;
+}
+
+.attourney-website button:hover{
+    display: pointer;
 }
