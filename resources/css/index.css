@@ -21,6 +21,7 @@
     display: inline-block;
     margin-left: auto;
     margin-right: 20px;
+    object-fit: cover;
 }
 
 #introduction .osu:hover{
