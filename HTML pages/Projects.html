@@ -1,10 +1,13 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Resume & Projects</title>
+        <title>Projects</title>
         <link href="../resources/css/reset.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/styles.css" type="text/css" rel="stylesheet">
+        <link href="../resources/css/projects.css" type="text/css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="../resources/images/sad_cat_thumb_icon.ico"/>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <header>
@@ -31,23 +34,65 @@
         </header>
         <main>
             <section class="projects">
-                <ul>
-                    <li>
-                        Attourney Website
+                <ul class="container">
+                    <li class="box attourney-website" data-aos="zoom-in" data-aos-duration="750">
+                        <h2>Attorney Website</h2>
+                        <p>An attorney in my family was in need of a professional
+                            website in order to have a greater outreach to find clients.
+                            The website was created using <span class="g-color">HTML</span> and <span class="g-color">CSS</span> and later had
+                            <span class="g-color">JavaScript</span> added for animations. A preview of the homepage 
+                            and the link to the <span class="g-color">Github Repository</span> are below.
+                        </p>
+                        <img src="../resources/images/Attourney-Website.png">
+                        <div class="container">
+                            <a class="p-color" href="https://github.com/Levans18/Attourney_Website" target="_blank">
+                                <button>Github Repository</button>
+                            </a>
+                        </div>
                     </li>
-                    <li>
-                        Addictify
+                    <li class="box addictify" data-aos="zoom-in" data-aos-duration="750">
+                        <h2>Addictify</h2>
+                        <p>In the 2021 OSU Hackathon me and 3 friends created 
+                            Addictify in 24 hours. The idea behind the app was to gamify
+                            quitting smoking by giving incentives in the form of raffles.
+                            The  <span class="o-color">IOS App</span> was made using a <span class="o-color">Dart</span> front-end using <span class="o-color">Flutter</span> on 
+                            <span class="o-color">Android Studio</span> a backend that used <span class="o-color">Firebase</span>. Our app runthrough
+                            is shown below.
+                        </p>
+                        <video class="tab" controls>Your browser does not support the &lt;video&gt; tag.
+                            <source src="../resources/videos/Addictify.MOV"/>
+                        </video>
                     </li>
-                    <li>
-                        Wecycle
+                    <li class="box robot-project" data-aos="zoom-in" data-aos-duration="750">
+                        <h2>Robot Project</h2>
+                        <p>
+                            The second portion of the Fundamentals of Engineering Honors
+                            Course was a year long <span class="r-color">Robot Project</span>. In the project we were
+                            split up into <span class="r-color">Teams</span> of four and given a <span class="r-color">Budget</span> 
+                            and created a robot to complete set tasks. The project was semester long
+                            requiring in depth <span class="r-color">Planning</span> I included our <span class="r-color">Final Paper</span> 
+                            and the field below.
+                        </p>
+                        <img src="../resources/images/Robot-Project-Field.jpg">
+                        <div class="container">
+                            <a class="r-color" href="../resources/pdf/Robot-Final.pdf" target="_blank">
+                                <button>Robot Project Final</button>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </section>
         </main>
         <footer>
             <ul>
-
+                <li>
+                    © LEvansDev 2021
+                </li>
+                <li>
+                    <a href="mailto:LEvans18Dev@gmail.com" class="p-color">Contact Me</a>
+                </li>
             </ul>
         </footer>
+        <script>AOS.init()</script>
     </body>
 </html>

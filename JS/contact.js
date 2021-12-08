@@ -23,7 +23,7 @@ let outlierTranslate = () => {
     });
     anime({
         targets: '.github',
-        translateX: screen.width/1.40 + 200,
+        translateX: screen.width/1.40 + 150,
         duration: 2000,
     });
 }

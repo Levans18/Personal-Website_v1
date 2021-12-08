@@ -1,10 +1,13 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Resume & Projects</title>
+        <title>Resume</title>
         <link href="../resources/css/reset.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/styles.css" type="text/css" rel="stylesheet">
+        <link href="../resources/css/resume.css" type="text/css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="../resources/images/sad_cat_thumb_icon.ico"/>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <header>
@@ -30,13 +33,22 @@
             </nav>
         </header>
         <main>
-            <section class="resume">
-                <embed src="../resources/pdf/Liam_Evans_Resume.pdf"/> 
+            <section class="resume" data-aos="fade-right" data-aos-duration="750">
+                <a href="../resources/pdf/Liam_Evans_Resume.pdf" target="_blank">
+                    <img src="../resources/images/Liam_Evans_Resume.jpg"/>
+                </a>
             </section>
         </main>
         <footer>
             <ul>
+                <li>
+                    © LEvansDev 2021
+                </li>
+                <li>
+                    <a href="mailto:LEvans18Dev@gmail.com" class="p-color">Contact Me</a>
+                </li>
             </ul>
         </footer>
+        <script>AOS.init()</script>
     </body>
 </html>

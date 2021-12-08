@@ -1,0 +1,185 @@
+#home-page main{
+    height: 100%;
+    align-items:center;
+}
+
+#introduction{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 500px;
+}
+
+
+#introduction img{
+    height: 20vw; 
+    width: 20vw; 
+    border: 5px solid #34E337;
+    border-radius: 50%;
+    box-shadow: 0 0 5px gray;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+#introduction .osu:hover{
+   transition:.5s ease;
+   color:red;
+}
+
+
+.curve{
+  width: 300px;
+  height: 300px;
+  float: left;
+  shape-outside: circle();
+  border-radius: 50%;
+  margin: 10px;
+  border-style: solid;
+}
+
+#introduction figcaption{
+    text-align: left;
+    vertical-align: center;
+    margin: 10px 0 0 7px;
+    font-size: 3.5vw;
+    color: white;
+}
+
+#languages{
+    height: 300px;
+}
+
+#languages .container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+    background-color: #333333;
+}
+
+#languages h1{
+    text-align: left;
+    margin: auto;
+}
+
+#languages ul{
+    width:100%;
+    height: 200px;
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+#languages li img{
+    height: 100px;
+    width: 100px;
+}
+
+
+#overview .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #333333;
+}
+
+#overview p{
+    margin: 50px;
+}
+
+#outside-coding{
+    height: 1100px;
+}
+
+#outside-coding .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #333333;
+}
+
+.activities{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    height: 1000px;
+}
+
+.activities h2{
+    background-color: #222222;
+    text-align: center;
+    height: 50px;
+}
+
+.activities p{
+    margin-left: 20px;
+    text-align:center;
+}
+
+.activities img{
+    margin-bottom: 25px;
+}
+
+.activities .container{
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activities li{
+    border-left: solid 10px #222222;
+    border-right: solid 10px #222222;
+}
+
+.esports{
+    height: 500px;
+    grid-row: 1/ span 1;
+    grid-column: 1/span 1;
+}
+
+.esports img{
+    height: 225px;
+    width: 325px;
+}
+
+.running{
+    height: 500px;
+    grid-row: 1/ span 1;
+    grid-column: 2/span 1;
+}
+
+.running img{
+    height: 250px;
+    width: 250px;
+}
+
+.climbing{
+    height: 500px;
+    grid-row: 2/ span 1;
+    grid-column: 1/span 1;
+}
+
+.climbing img{
+    height: 300px;
+    width: 200px;
+}
+
+.music{
+    height: 500px;
+    grid-row: 2/ span 1;
+    grid-column: 2/span 1;
+}
+
+.music img{
+    height: 250px;
+    width: 250px;
+}
+
+

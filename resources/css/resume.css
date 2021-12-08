@@ -1,0 +1,19 @@
+
+.resume{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.resume a{
+    width: 60%;
+}
+
+.resume img{
+    height: 1150px;
+    margin:20px;
+    width: 100%;
+    min-width: 600px;
+}
